@@ -59,8 +59,14 @@ header{
 }
 .principal-table{
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .cells-style td{
     padding: 10px;
 }
+
+.button-style{
+    padding-top: 2.5rem;
+}
+

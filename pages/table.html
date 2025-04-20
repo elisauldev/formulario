@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/showInfo.js"></script>
     <title>Document</title>
 </head>
 
@@ -13,31 +14,16 @@
 
     </header>
 
-    <main class="main-table">
-        <div class="principal-table">
-            <table class="table-style">
-                <tr class="cells-style">
-                    <th>Fecha</th>
-                    <th>Descripción</th>
-                    <th>Estado</th>
-                </tr>
-                <tr>
-                    <td>
-                        esto es una prueba
-                    </td>
-                    <td>
-                        esto es otra prueba
-                    </td>
-                </tr>
-            </table>
-            <div>
-                <input class="send-button" type= "button" onclick=""  value="Enviar">
-            </div>
+    <main id="table-elements" class="main-table">
+                <div class="button-style">
+                    <input id="miButton" class="send-button" type="button" onclick="showItems" value="Enviar"></input>
+                </div>
         </div>
     </main>
     <footer>
 
     </footer>
+    
 </body>
 
 </html>
